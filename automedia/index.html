@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오토미디어 | 신설법인 대표차종 조건표</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ✅ 상단 고정 헤더(페이지 전체에서 1번만) -->
+  <header class="topbar">
+    <div class="topbar__left">
+      <div class="topbar__kicker">롯데렌터카 오토미디어</div>
+      <h1 class="topbar__title">
+        대표차종 조건표 <span class="topbar__sub">(보험포함 · VAT포함 · 60개월 · 2~5년 가능)</span>
+      </h1>
+    </div>
+
+    <div class="topbar__right">
+      <a class="topbar__tel" href="tel:02-445-8087" aria-label="전화 상담하기">02-445-8087</a>
+      <a class="btn btn--primary" href="#lead">상담 신청</a>
+    </div>
+  </header>
+
+  <!-- ✅ 모바일 하단 고정 CTA -->
+  <div class="mobile-cta" role="navigation" aria-label="빠른 문의">
+    <a class="mobile-cta__item" href="tel:02-445-8087">
+      <span class="mobile-cta__label">전화</span>
+      <span class="mobile-cta__value">바로 연결</span>
+    </a>
+    <a class="mobile-cta__item mobile-cta__item--primary" href="#lead">
+      <span class="mobile-cta__label">상담</span>
+      <span class="mobile-cta__value">신청하기</span>
+    </a>
+  </div>
+
+  <main>
+
+    <!-- ✅ HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="pill">신설법인 · 개인사업자 · 법인 대표님</div>
+          <h2 class="hero__title">
+            신설법인도 가능한<br />
+            <span class="hero__accent">대표차종 조건표</span>를 한 번에 확인하세요
+          </h2>
+          <p class="hero__desc">
+            보험·VAT 포함 조건으로 빠르게 비교하고, 심사/서류/출고까지 전담 매니저가 안내드립니다.
+          </p>
+
+          <div class="hero__bullets">
+            <div class="bullet">
+              <div class="bullet__t">즉시출고 중심</div>
+              <div class="bullet__d">빠른 업무 투입 가능</div>
+            </div>
+            <div class="bullet">
+              <div class="bullet__t">비용/리스크 최소화</div>
+              <div class="bullet__d">초기 부담을 줄이는 플랜</div>
+            </div>
+            <div class="bullet">
+              <div class="bullet__t">절차/서류 안내</div>
+              <div class="bullet__d">신설법인 맞춤 체크</div>
+            </div>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--lg" href="#lead">상담 신청</a>
+            <a class="btn btn--ghost btn--lg" href="#cars">차종표 보기</a>
+          </div>
+
+          <div class="hero__note">
+            * 월 렌탈료는 조건/심사에 따라 달라질 수 있으며, 최종 견적은 상담 후 안내됩니다.
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="panel-card">
+            <div class="panel-card__title">오늘 상담 받으면 좋은 분</div>
+            <ul class="panel-card__list">
+              <li>신설법인이라 심사가 걱정되는 경우</li>
+              <li>사업 초기에 비용과 리스크를 최소화하고 싶은 경우</li>
+              <li>즉시출고 차량을 빠르게 확보해야 하는 경우</li>
+              <li>차량 구매 대신 현금흐름을 지키고 싶은 경우</li>
+            </ul>
+            <div class="panel-card__foot">
+              <a class="btn btn--primary btn--full" href="#lead">전담 매니저 연결</a>
+              <a class="btn btn--outline btn--full" href="tel:02-445-8087">전화로 바로 상담</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ FILTER BAR (UI + 앵커) -->
+    <section class="filterbar" id="cars">
+      <div class="container filterbar__inner">
+        <div class="filterbar__left">
+          <div class="filterbar__title">차종 조건표</div>
+          <div class="filterbar__sub">빠른 비교를 위해 “즉시출고” 중심으로 구성했습니다.</div>
+        </div>
+
+        <div class="filterbar__right" aria-label="차종 필터 (UI)">
+          <!-- UI만 있어도 전문성 상승 / 나중에 JS 붙이기 쉬움 -->
+          <div class="segmented" role="tablist" aria-label="차종 카테고리">
+            <a class="segmented__btn is-active" href="#section-passenger" role="tab" aria-selected="true">승용</a>
+            <a class="segmented__btn" href="#section-premium" role="tab" aria-selected="false">프리미엄/EV</a>
+            <a class="segmented__btn" href="#section-commercial" role="tab" aria-selected="false">화물/특장</a>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" checked />
+            <span>즉시출고 중심</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ SECTION: 승용 -->
+    <section class="sheet" id="section-passenger">
+      <div class="section-head container">
+        <h3 class="section-head__title">승용 대표차종</h3>
+        <p class="section-head__desc">가격/출고/월 비용을 한 번에 비교할 수 있도록 카드 형태로 정리했습니다.</p>
+      </div>
+
+      <div class="stage">
+        <div class="grid grid--4">
+
+          <!-- 카드 1 -->
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">현대 캐스퍼 1.0(가솔린)</div>
+                <div class="card__trim">디에센셜</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">325,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 1,690만원</span>
+            </div>
+
+            <div class="card__brand">
+              <span class="brand brand--hyundai">HYUNDAI</span>
+            </div>
+
+            <div class="card__img">
+              <img src="images/casper.png" alt="현대 캐스퍼" />
+            </div>
+
+            <div class="specs">
+              <span class="spec">내비</span>
+              <span class="spec">하이패스</span>
+              <span class="spec">전방충돌방지</span>
+              <span class="spec">후방카메라</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">30% 월</span>
+                <strong class="priceRow__r">228,000</strong><span class="won">원</span>
+              </div>
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">0% 월</span>
+                <strong class="priceRow__r priceRow__r--red">325,000</strong><span class="won">원</span>
+              </div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <!-- 카드 2 -->
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">현대 더 뉴 아반떼 1.6(가솔린)</div>
+                <div class="card__trim">스마트</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">407,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 2,148만원</span>
+            </div>
+
+            <div class="card__brand">
+              <span class="brand brand--hyundai">HYUNDAI</span>
+            </div>
+
+            <div class="card__img">
+              <img src="images/avante.png" alt="현대 아반떼" onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');" />
+              <div class="img-fallback">
+                <div class="img-fallback__brand">HYUNDAI</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">스마트키</span>
+              <span class="spec">10.25 내비</span>
+              <span class="spec">ECM 룸미러</span>
+              <span class="spec">하이패스</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">30% 월</span>
+                <strong class="priceRow__r">283,000</strong><span class="won">원</span>
+              </div>
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">0% 월</span>
+                <strong class="priceRow__r priceRow__r--red">407,000</strong><span class="won">원</span>
+              </div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <!-- 카드 3 (샘플) -->
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">현대 더 뉴 아반떼 1.6(가솔린)</div>
+                <div class="card__trim">인스퍼레이션</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">459,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 2,490만원</span>
+            </div>
+
+            <div class="card__brand">
+              <span class="brand brand--hyundai">HYUNDAI</span>
+            </div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">HYUNDAI</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">ADAS</span>
+              <span class="spec">통풍시트</span>
+              <span class="spec">서라운드뷰</span>
+              <span class="spec">내비</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">30% 월</span>
+                <strong class="priceRow__r">320,000</strong><span class="won">원</span>
+              </div>
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">0% 월</span>
+                <strong class="priceRow__r priceRow__r--red">459,000</strong><span class="won">원</span>
+              </div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <!-- 카드 4 (샘플) -->
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">기아 레이(가솔린)</div>
+                <div class="card__trim">프레스티지</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">358,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 2,050만원</span>
+            </div>
+
+            <div class="card__brand">
+              <span class="brand brand--kia">KIA</span>
+            </div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">KIA</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">내비</span>
+              <span class="spec">후방카메라</span>
+              <span class="spec">열선시트</span>
+              <span class="spec">하이패스</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">30% 월</span>
+                <strong class="priceRow__r">251,000</strong><span class="won">원</span>
+              </div>
+              <div class="priceRow">
+                <span class="priceRow__l">선납</span>
+                <span class="priceRow__m">0% 월</span>
+                <strong class="priceRow__r priceRow__r--red">358,000</strong><span class="won">원</span>
+              </div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ SECTION: 프리미엄/EV -->
+    <section class="sheet" id="section-premium">
+      <div class="section-head container">
+        <h3 class="section-head__title">프리미엄 · 전기 대표차종</h3>
+        <p class="section-head__desc">법인 이미지/업무 효율을 고려한 프리미엄 및 EV 라인업입니다.</p>
+      </div>
+
+      <div class="stage">
+        <div class="grid grid--4">
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">폴스타2 24MY(전기)</div>
+                <div class="card__trim">롱레인지 2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">783,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 6,279만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand">POLESTAR</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">POLESTAR</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">449km</span>
+              <span class="spec">파노라마루프</span>
+              <span class="spec">ACC</span>
+              <span class="spec">안전패키지</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">420,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">783,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">현대 그랜저 2.5(Hybrid)</div>
+                <div class="card__trim">익스클루시브 2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">699,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 4,899만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand brand--hyundai">HYUNDAI</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">HYUNDAI</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">천연가죽</span>
+              <span class="spec">디지털키2</span>
+              <span class="spec">서라운드뷰</span>
+              <span class="spec">HUD</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">416,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">699,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">테슬라 모델Y(전기)</div>
+                <div class="card__trim">2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">915,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 5,499만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand">TESLA</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">TESLA</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">오토파일럿</span>
+              <span class="spec">블랙시트</span>
+              <span class="spec">대형 SUV</span>
+              <span class="spec">OTA</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">597,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">915,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">제네시스 G80 2.5T(가솔린)</div>
+                <div class="card__trim">2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">1,145,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 6,260만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand">GENESIS</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">GENESIS</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">AR 내비</span>
+              <span class="spec">서라운드뷰</span>
+              <span class="spec">HUD</span>
+              <span class="spec">디지털키2</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">710,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">1,145,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ SECTION: 화물/특장 -->
+    <section class="sheet" id="section-commercial">
+      <div class="section-head container">
+        <h3 class="section-head__title">화물 · 특장 대표차종</h3>
+        <p class="section-head__desc">업무용 운행을 고려한 실사용 중심 구성입니다.</p>
+      </div>
+
+      <div class="stage">
+        <div class="grid grid--3">
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">현대 포터Ⅱ(LPG)</div>
+                <div class="card__trim">슈퍼캡 초장축 스마트 2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">393,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 2,220만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand brand--hyundai">HYUNDAI</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">HYUNDAI</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">오토</span>
+              <span class="spec">열선시트</span>
+              <span class="spec">후방카메라</span>
+              <span class="spec">업무용</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">256,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">393,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">기아 봉고Ⅲ(LPG)</div>
+                <div class="card__trim">1톤 킹캡 초장축 GL 2WD</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">0% 기준 월</div>
+                <div class="priceTop__value">382,000원</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 2,190만원</span>
+            </div>
+
+            <div class="card__brand"><span class="brand brand--kia">KIA</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">KIA</div>
+                <div class="img-fallback__text">이미지 준비중</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">에어컨</span>
+              <span class="spec">ABS</span>
+              <span class="spec">파워윈도우</span>
+              <span class="spec">업무용</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">248,000</strong><span class="won">원</span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">382,000</strong><span class="won">원</span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">이 차량 상담</a>
+          </article>
+
+          <article class="card">
+            <div class="card__header">
+              <div class="card__title">
+                <div class="card__name">특장차(냉동/내장탑)</div>
+                <div class="card__trim">모델/옵션 선택</div>
+              </div>
+              <div class="card__priceTop">
+                <div class="priceTop__label">견적</div>
+                <div class="priceTop__value">상담 필요</div>
+              </div>
+            </div>
+
+            <div class="card__badges">
+              <span class="badge badge--dark">즉시출고</span>
+              <span class="badge badge--red">차량가 별도</span>
+            </div>
+
+            <div class="card__brand"><span class="brand">SPECIAL</span></div>
+
+            <div class="card__img is-empty">
+              <div class="img-fallback">
+                <div class="img-fallback__brand">SPECIAL</div>
+                <div class="img-fallback__text">냉동탑/내장탑/윙바디</div>
+              </div>
+            </div>
+
+            <div class="specs">
+              <span class="spec">냉동탑</span>
+              <span class="spec">내장탑</span>
+              <span class="spec">윙바디</span>
+              <span class="spec">상담견적</span>
+            </div>
+
+            <div class="prices">
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">30% 월</span><strong class="priceRow__r">상담</strong><span class="won"></span></div>
+              <div class="priceRow"><span class="priceRow__l">선납</span><span class="priceRow__m">0% 월</span><strong class="priceRow__r priceRow__r--red">상담</strong><span class="won"></span></div>
+            </div>
+
+            <a class="card__cta" href="#lead">특장차 상담</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ 가치/스토리 섹션 (이미지 + 핵심 메시지) -->
+    <section class="sheet sheet--light" id="value">
+      <div class="container">
+        <div class="split">
+          <div class="split__left">
+            <h3 class="big-title">
+              불확실한 미래를 위한 안전장치,<br />
+              <span class="big-title__accent">‘비즈카 420’ 시스템</span>
+            </h3>
+            <p class="big-desc">
+              초기엔 장기 계약의 합리적인 비용으로 시작하고, 필요 시 유연하게 운용할 수 있도록
+              사업 리스크를 줄이는 방향으로 설계합니다.
+            </p>
+
+            <div class="value-cards">
+              <div class="value-card">
+                <div class="value-card__t">현금흐름 보호</div>
+                <div class="value-card__d">구매/리스 대비 초기 부담을 낮춰 운영 자금을 지킵니다.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-card__t">신설법인 맞춤</div>
+                <div class="value-card__d">심사/서류를 단계별로 안내해 진행 스트레스를 낮춥니다.</div>
+              </div>
+              <div class="value-card">
+                <div class="value-card__t">즉시출고 중심</div>
+                <div class="value-card__d">가능 차량 우선으로 빠른 업무 투입을 돕습니다.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="split__right">
+            <div class="media-box">
+              <img src="images/bizcar.jpg" alt="비즈카 420 시스템" onerror="this.style.display='none'; this.parentElement.classList.add('is-empty');" />
+              <div class="media-fallback">
+                <div class="media-fallback__t">이미지 준비중</div>
+                <div class="media-fallback__d">이미지를 넣으면 이 영역에 꽉 채워집니다.</div>
+              </div>
+            </div>
+
+            <div class="callout">
+              초기엔 ‘장기 계약’의 저렴한 가격으로,<br />
+              2년 뒤엔 ‘단기 계약’의 자유로움으로.<br />
+              리스크는 롯데가 함께 고민하겠습니다.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ 프로세스/서류 -->
+    <section class="sheet" id="process">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h3 class="section-head__title">진행 절차 & 준비 서류</h3>
+          <p class="section-head__desc">신설법인에서 가장 헷갈리는 부분을 한 화면에 정리했습니다.</p>
+        </div>
+
+        <div class="process">
+          <div class="steps">
+            <div class="step">
+              <div class="step__num">1</div>
+              <div class="step__t">상담/요건 확인</div>
+              <div class="step__d">희망 차종 · 예산 · 출고 일정 확인</div>
+            </div>
+            <div class="step">
+              <div class="step__num">2</div>
+              <div class="step__t">서류 안내</div>
+              <div class="step__d">사업 형태에 맞춰 필요한 서류만 안내</div>
+            </div>
+            <div class="step">
+              <div class="step__num">3</div>
+              <div class="step__t">심사/견적 확정</div>
+              <div class="step__d">조건 확정 후 최종 월 비용 확정</div>
+            </div>
+            <div class="step">
+              <div class="step__num">4</div>
+              <div class="step__t">출고/인도</div>
+              <div class="step__d">일정 확정 후 빠르게 인도</div>
+            </div>
+          </div>
+
+          <div class="docs">
+            <div class="docs__title">기본 준비 서류(예시)</div>
+            <div class="docs__grid">
+              <div class="doc">
+                <div class="doc__t">사업자등록증</div>
+                <div class="doc__d">법인/개인사업자 공통</div>
+              </div>
+              <div class="doc">
+                <div class="doc__t">대표자 신분증</div>
+                <div class="doc__d">본인 확인</div>
+              </div>
+              <div class="doc">
+                <div class="doc__t">법인등기부등본</div>
+                <div class="doc__d">법인인 경우</div>
+              </div>
+              <div class="doc">
+                <div class="doc__t">재무/매출 자료</div>
+                <div class="doc__d">필요 시 안내</div>
+              </div>
+            </div>
+
+            <div class="docs__note">
+              * 실제 필요 서류는 고객 상황(업종/신용/차종/조건)에 따라 달라질 수 있습니다.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ 영상 + 신뢰 -->
+    <section class="sheet sheet--light" id="video">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h3 class="section-head__title">서비스 소개 영상</h3>
+          <p class="section-head__desc">핵심 내용을 영상으로 빠르게 확인하세요.</p>
+        </div>
+
+        <div class="video-box">
+          <iframe
+            src="https://www.youtube.com/embed/Gq5rm3cT7s4?si=6yfD2X1iKluNfvKG"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="trust">
+          <div class="trust__card">
+            <div class="trust__t">전담 매니저</div>
+            <div class="trust__d">상담부터 출고까지 1:1 안내</div>
+          </div>
+          <div class="trust__card">
+            <div class="trust__t">보험·VAT 포함</div>
+            <div class="trust__d">조건 비교가 쉬운 구성</div>
+          </div>
+          <div class="trust__card">
+            <div class="trust__t">신설법인 대응</div>
+            <div class="trust__d">서류/심사 포인트 정리</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ FAQ -->
+    <section class="sheet" id="faq">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h3 class="section-head__title">자주 묻는 질문</h3>
+          <p class="section-head__desc">신설법인이 가장 불안해하는 포인트를 먼저 답합니다.</p>
+        </div>
+
+        <div class="faq">
+          <details class="qa" open>
+            <summary class="qa__q">신설법인이라 심사가 걱정돼요. 가능할까요?</summary>
+            <div class="qa__a">
+              가능합니다. 다만 업종/대표자 신용/차종/조건에 따라 결과가 달라질 수 있어, 상담 시 필요한 서류와
+              승인 가능성을 빠르게 안내드립니다.
+            </div>
+          </details>
+
+          <details class="qa">
+            <summary class="qa__q">월 렌탈료는 어떻게 결정되나요?</summary>
+            <div class="qa__a">
+              차량가, 계약기간, 선납/보증금, 보험 조건, 심사 결과 등을 종합하여 확정됩니다. 페이지의 금액은
+              비교를 위한 예시이며 최종 견적은 상담 후 확정됩니다.
+            </div>
+          </details>
+
+          <details class="qa">
+            <summary class="qa__q">즉시출고는 얼마나 빨라요?</summary>
+            <div class="qa__a">
+              재고/배정 상황에 따라 다르지만, 가능한 차량을 우선으로 안내드려 업무 일정에 맞춰 출고를 조율합니다.
+            </div>
+          </details>
+
+          <details class="qa">
+            <summary class="qa__q">중도 반납/변경이 가능한가요?</summary>
+            <div class="qa__a">
+              상품/조건에 따라 다릅니다. 사용 기간과 운용 계획을 기반으로 “불필요한 위약금 리스크”가 줄어드는 방향으로
+              설계를 도와드립니다.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ 상담 폼 -->
+    <section class="sheet sheet--light" id="lead">
+      <div class="container">
+        <div class="lead">
+          <div class="lead__left">
+            <h3 class="lead__title">전담 매니저 상담 신청</h3>
+            <p class="lead__desc">
+              아래 정보만 남겨주시면, 조건 확인 후 빠르게 안내드리겠습니다.
+            </p>
+
+            <div class="lead__points">
+              <div class="leadPoint">
+                <div class="leadPoint__t">빠른 비교</div>
+                <div class="leadPoint__d">희망 차종/예산 중심으로 추천</div>
+              </div>
+              <div class="leadPoint">
+                <div class="leadPoint__t">서류 안내</div>
+                <div class="leadPoint__d">필요한 것만 간단히</div>
+              </div>
+              <div class="leadPoint">
+                <div class="leadPoint__t">출고 일정</div>
+                <div class="leadPoint__d">즉시출고 가능 차량 우선</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lead__right">
+            <!-- 실제 전송은 나중에 action/서버 붙이면 됨 -->
+            <form class="form" onsubmit="event.preventDefault(); alert('상담 신청이 접수되었습니다. 빠르게 연락드리겠습니다!');">
+              <label class="field">
+                <span class="field__label">성함</span>
+                <input class="field__input" type="text" placeholder="홍길동" required />
+              </label>
+
+              <label class="field">
+                <span class="field__label">연락처</span>
+                <input class="field__input" type="tel" placeholder="010-0000-0000" required />
+              </label>
+
+              <label class="field">
+                <span class="field__label">사업 형태</span>
+                <select class="field__input" required>
+                  <option value="">선택</option>
+                  <option>신설법인</option>
+                  <option>기존법인</option>
+                  <option>개인사업자</option>
+                  <option>개인</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span class="field__label">희망 차종</span>
+                <input class="field__input" type="text" placeholder="예: 캐스퍼, 그랜저, 포터 등" />
+              </label>
+
+              <label class="field">
+                <span class="field__label">문의 내용</span>
+                <textarea class="field__input field__textarea" placeholder="예: 즉시출고 가능한지, 월 예산 40만원대 등"></textarea>
+              </label>
+
+              <label class="consent">
+                <input type="checkbox" required />
+                <span>개인정보 수집·이용에 동의합니다.</span>
+              </label>
+
+              <button class="btn btn--primary btn--full btn--lg" type="submit">상담 신청 완료</button>
+
+              <div class="form__note">
+                * 접수 후 영업시간(평일 09:00~18:00) 내 빠르게 연락드립니다.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ✅ FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img class="footer-logo" src="images/company-logo.png" alt="오토미디어 로고" />
+        </div>
+        <p class="footer-desc">
+          롯데는 단순한 렌터카가 아닌,<br />
+          대표님의 신용과 사업의 안정성을 지키는 파트너입니다.
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-list">
+          <li>상호명 : (주)오토미디어</li>
+          <li>대표 : 김도연</li>
+          <li>사업자등록번호 : 309-81-06365</li>
+          <li>주소 : 서울 강남구 헌릉로 745길 25, A동 2층</li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-call-title">전화 상담</div>
+        <a href="tel:02-445-8087" class="footer-call">02-445-8087</a>
+        <div class="footer-time">
+          평일 09:00 ~ 18:00<br />
+          (주말/공휴일 휴무)
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">© (주)오토미디어. All Rights Reserved.</div>
+  </footer>
+
+</body>
+</html>
